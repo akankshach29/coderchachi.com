@@ -20,7 +20,7 @@ const AboutPage = () => (
       In 2015, I got myself into learning web development and worked as a freelance web developer.
       I worked on building websites using HTML, CSS, JavaScript and Angular.js.   
       <br /><br />
-      In 2016, I moved to working on React. In 2017, I started working with Kidovators- by Gyanlab,
+      In 2016, I started working on React. In 2017, I started working with Kidovators- by Gyanlab,
       and built a full SaaS product using MERN stack (MongoDB, Express, React, Node). Since then I have 
       enjoyed full stack web development and look forward to doing good work and hope for great opportunities in life.
     </p>

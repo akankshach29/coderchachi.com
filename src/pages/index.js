@@ -16,7 +16,7 @@ const IndexPage = () => (
     <p>
       I am a self taught web developer living in India. I love to explore latest tech for web development.
     </p>
-    <p>Feel free to send me a message on <a href="https://twitter.com/ch_akanksha" target="blank">Twitter</a>!</p>
+    <p>Feel free to contact me on <a href="https://www.linkedin.com/in/akankshachoudhary/" target="blank">LinkedIn</a> or <a href="https://twitter.com/ch_akanksha" target="blank">Twitter</a>!</p>
   </Layout>
 )
 
