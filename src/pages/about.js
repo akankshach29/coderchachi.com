@@ -1,16 +1,19 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-import womanAtDesk from '../images/woman-at-desk.svg'
+import womanAtDesk from '../images/akanksha-pic.png'
 import date2015 from '../images/2015.svg'
 import date2017 from '../images/2017.svg'
 import date2018 from '../images/2018.svg'
 
 const AboutPage = () => (
   <Layout>
-    <img src={womanAtDesk} alt="Woman at desk" />
+    <div style={ { textAlign: 'center' } }>
+      <img src={womanAtDesk} alt="Woman at desk" style={ { width: '250px' } }/>
+    </div>
+    
     <p>
-    Currently, I am working on building technology to facilitate 21st Century skills learning and handle operations at Kidovators- by Gyanlab. I am a full stack web developer, currently working on MERN stack. I take utmost pride in exploring the best technology suitable for the job in hand and that's reflected in the Kidovators app framework and architectural choices.
+    Currently, I am working on building technology to facilitate 21st Century skills learning at Kidovators- by Gyanlab. I am a full stack web developer, currently working on MERN stack. I take utmost pride in exploring the best technology suitable for the job in hand and that's reflected in the Kidovators app framework and architectural choices.
     </p>
     
     <p>
