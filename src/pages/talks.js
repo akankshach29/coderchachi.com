@@ -20,7 +20,7 @@ const TalkPage = () => (
         flexDirection: 'column',
       }}
     >
-      <h3 className="blogSquare__title">Building Blazing Fast Websites with Gatsby</h3>
+      <h2 className="blogSquare__title">Building Blazing Fast Websites with Gatsby</h2>
       <p style={{ margin: '5px 0px 0px', fontSize: '0.8em', fontWeight: 'bold'}}>March 9, 2019</p>
       <p style={{ margin: '5px 0px 10px', fontSize: '0.9em', fontWeight: 'bold'}}>Speaking at: <a style={{ color: '#77bfd6', textDecoration: 'none' }} href="https://www.meetup.com/ReactJS-Bangalore/events/257950984/">ReactJS Bangalore</a></p>
       <p>
