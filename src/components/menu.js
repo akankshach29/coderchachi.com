@@ -13,7 +13,7 @@ const Menu = () => {
             className="menu__item"
             activeClassName="menu__item--selected"
           >
-            home
+            Home
           </Link>
         </li>
         <li>
@@ -22,7 +22,16 @@ const Menu = () => {
             className="menu__item"
             activeClassName="menu__item--selected"
           >
-            about
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/talks"
+            className="menu__item"
+            activeClassName="menu__item--selected"
+          >
+            Talks
           </Link>
         </li>
         <li>
@@ -31,7 +40,7 @@ const Menu = () => {
             className="menu__item"
             activeClassName="menu__item--selected"
           >
-            work
+            Work
           </Link>
         </li>
         <li>
@@ -40,7 +49,7 @@ const Menu = () => {
             className="menu__item"
             activeClassName="menu__item--selected"
           >
-            blog
+            Blog
           </Link>
         </li>
       </ul>
