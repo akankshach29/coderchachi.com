@@ -42,6 +42,12 @@ module.exports = {
         trackingId: "UA-73324242-2",
       },
     },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        // Accepts all options defined by `babel-plugin-emotion` plugin.
+      },
+    },
     'gatsby-plugin-offline',
     `gatsby-plugin-favicon`,
   ],
