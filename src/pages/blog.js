@@ -8,7 +8,7 @@ const BlogPage = ({ data }) => (
   <Layout>
     <p
       style={{
-        background: '#F7C0AB',
+        background: 'rgb(189, 137, 123)',
         padding: '15px',
         fontSize: '.8em',
         color: 'white',
