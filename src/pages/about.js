@@ -27,7 +27,7 @@ const AboutPage = () => (
       and built a full SaaS product using MERN stack (MongoDB, Express, React, Node). Since then I have 
       enjoyed full stack web development and look forward to doing good work and hope for great opportunities in life.
     </p>
-    <p>I like to explore on the latest tech/framework that comes my way, be it Gatsby, GraphQL, Apollo or emotion, etc. </p>
+    <p>I like to explore on the latest tech/framework that comes my way, be it Gatsby, GraphQL, Apollo, etc. </p>
 
   </Layout>
 )
