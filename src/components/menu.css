@@ -24,7 +24,7 @@ li {
 
 .menu__item--selected {
   text-decoration: underline;
-  color: rgb(189, 137, 123);
+  color: rgb(176, 98, 77);
 }
 
 .menu__button {
