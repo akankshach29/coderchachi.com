@@ -12,7 +12,7 @@ const TalkPage = () => (
         marginTop: '30px',
       }}
     >
-      Upcoming Talks
+      Talks
     </h2>
     <section
       style={{
