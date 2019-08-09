@@ -56,7 +56,7 @@ const WorkPage = () => (
           title="Kidovators"
           date="2017 - current"
           tech="HTML, CSS, JavaScript, React."
-          link="https://kidovators.com"
+          link="https://kidovators.netlify.com/"
         />
         <hr />
         <WorkItem
