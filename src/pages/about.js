@@ -13,7 +13,7 @@ const AboutPage = () => (
     </div>
     
     <p>
-    Currently, I am working on building technology to facilitate 21st Century skills learning at Kidovators- by Gyanlab. I am a full stack web developer, currently working on MERN stack. I take utmost pride in exploring the best technology suitable for the job in hand and that's reflected in the Kidovators app framework and architectural choices.
+    I have worked on building technology to facilitate 21st Century skills learning at Kidovators- by Gyanlab. I have been working on MERN stack and I take utmost pride in exploring the best technology suitable for the job in hand and that's reflected in the Kidovators app framework and architectural choices.
     </p>
     
     <p>

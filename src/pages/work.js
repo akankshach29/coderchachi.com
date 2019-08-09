@@ -42,21 +42,21 @@ const WorkPage = () => (
             letterSpacing: '4px',
           }}
         >
-        </h1>
-        <WorkItem
-          image={data.kidovatorsApp}
-          title="Kidovators"
-          date="2017 - current"
-          tech="HTML, CSS, JavaScript, React, Redux, Webpack, Node.js, MongoDB, Hopscotch."
-          link="https://app.kidovators.com/"
-        />
-        <hr />
+        </h1>        
         <WorkItem
           image={data.kidovatorsMain}
           title="Kidovators"
-          date="2017 - current"
+          date="2017 - 2019"
           tech="HTML, CSS, JavaScript, React."
           link="https://kidovators.netlify.com/"
+        />
+        <hr />
+        <WorkItem
+          image={data.kidovatorsApp}
+          title="Kidovators"
+          date="2017 - 2019"
+          tech="HTML, CSS, JavaScript, React, Redux, Webpack, Node.js, MongoDB, Hopscotch."
+          link="https://app-kidovators.netlify.com/"
         />
         <hr />
         <WorkItem
