@@ -6,24 +6,31 @@ import WorkItem from '../components/workItem'
 import { StaticQuery, graphql } from 'gatsby'
 
 const WorkPage = () => (
-
-  <StaticQuery query={graphql`
+  <StaticQuery
+    query={graphql`
       {
-        kidovatorsApp: file(relativePath: {eq: "app_kidovators.png"}) {
+        kidovatorsApp: file(relativePath: { eq: "app_kidovators.png" }) {
           childImageSharp {
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        kidovatorsMain: file(relativePath: {eq: "kidovators_main.png"}) {
+        kidovatorsMain: file(relativePath: { eq: "kidovators_main.png" }) {
           childImageSharp {
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        appliedYoga: file(relativePath: {eq: "applied-yoga.png"}) {
+        miniConf: file(relativePath: { eq: "miniconf.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1600) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        appliedYoga: file(relativePath: { eq: "applied-yoga.png" }) {
           childImageSharp {
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid
@@ -31,7 +38,8 @@ const WorkPage = () => (
           }
         }
       }
-    `} render={(data) => (
+    `}
+    render={data => (
       <Layout>
         <h1
           style={{
@@ -41,14 +49,21 @@ const WorkPage = () => (
             fontSize: '25px',
             letterSpacing: '4px',
           }}
-        >
-        </h1>        
+        />
         <WorkItem
           image={data.kidovatorsMain}
           title="Kidovators"
           date="2017 - 2019"
           tech="HTML, CSS, JavaScript, React."
           link="https://kidovators.netlify.com/"
+        />
+        <hr />
+        <WorkItem
+          image={data.miniConf}
+          title="MiniConf"
+          date="2019"
+          tech="Gatsby."
+          link="https://miniconf.dev/"
         />
         <hr />
         <WorkItem
@@ -73,4 +88,3 @@ const WorkPage = () => (
 )
 
 export default WorkPage
-
