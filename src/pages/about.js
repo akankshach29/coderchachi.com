@@ -13,6 +13,10 @@ const AboutPage = () => (
     </div>
     
     <p>
+    Currently I work in the Voot web team building the Big Boss voting from scratch that is used by 10M+ indian and international users. Also worked on the entire admin app for the same which included voting page creation and reporting. Worked on CMS for form generation for various shows and contests like MTV Roadies, Splitsvilla, etc. Provision for online and offline quizzes is another feature I got to work on. Along with new features I am involved in bug fixing for many existing features.
+    </p>
+
+    <p>
     I have worked on building technology to facilitate 21st Century skills learning at Kidovators- by Gyanlab. I have been working on MERN stack and I take utmost pride in exploring the best technology suitable for the job in hand and that's reflected in the Kidovators app framework and architectural choices.
     </p>
     

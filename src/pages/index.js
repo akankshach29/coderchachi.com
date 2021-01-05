@@ -14,7 +14,7 @@ const IndexPage = () => (
       Hi, I’m Akanksha. I’m a Full Stack Web Developer.
     </h2>
     <p>
-      I am a self taught web developer living in India and I love to explore latest tech for web development.
+      I am a self taught web developer living in India and I love to do web development.
     </p>
     <p>Feel free to contact me on <a href="https://www.linkedin.com/in/akankshachoudhary/" target="blank">LinkedIn</a> or <a href="https://twitter.com/ch_akanksha" target="blank">Twitter</a>!</p>
   </Layout>
